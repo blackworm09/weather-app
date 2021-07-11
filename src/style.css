@@ -1,13 +1,14 @@
-body { font-family: Arial, Helvetica, sans-serif;}
+body { font-family: 'Rajdhani', sans-serif;
+}
 
 
 
 h1 {
-    color: rgb(66, 52, 192);
+    color: rgb(96, 46, 130);
     display: block;
    
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 600;
    
     line-height: 28px;
   margin-bottom: 0;
@@ -32,6 +33,14 @@ line-height: 19px;
 
 }
 
+.btn {color: white;
+background-color: rgb(247, 100, 42);
+border: none;
+border-radius: 20px;
+ }
+
+.btn:hover {background-color: rgb(96, 46, 130);}
+
 li.first-letter{
     text-transform: capitalize;
 }
@@ -39,13 +48,15 @@ li.first-letter{
 .weather-app-wrapper
 {  max-width: 600px; 
     margin: 30px auto; 
+    
 
 }
 .weather-app{
   
     padding: 20px; 
     border: 1px solid#dadde1;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: rgb(227, 219, 215);
 }
 .overview{
     margin-bottom: 20px;
