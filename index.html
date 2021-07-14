@@ -13,9 +13,12 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
@@ -55,7 +58,10 @@
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong
-                  ><span class="units"> <a href="#" id="celsius-link">C˚</a> | <a href="#" id="fahrenheit-link">F˚</a> </span>
+                  ><span class="units">
+                    <a href="#" id="celsius-link">C˚</a> |
+                    <a href="#" id="fahrenheit-link">F˚</a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -66,10 +72,28 @@
               </ul>
             </div>
           </div>
-          <div class="weather-forecast" id="forecast"></div>
+          <div class="weather-forecast" id="forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="40"
+                />
+                <div class="weather-forecast-temperature">
+                  <span class="weather-forecast-maximum">18˚</span>
+                  <span class="weather-forecast-minimum">12˚</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <small>
-          <a href="#" target="_blank">Open-source code</a>
+          <a href="https://github.com/blackworm09/weather-app" target="_blank"
+            >Open-source code</a
+          >
           by EK
         </small>
       </div>
